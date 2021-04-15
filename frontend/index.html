@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar API</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Coda+Caption:wght@800&family=Noto+Serif+JP:wght@200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/ccf908b2cd.js" crossorigin="anonymous"></script>
+    <style>
+        .flex-titulo {
+            display: flex;
+        }
+        
+        .flex-contenedor {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        
+        .flex-contenedor-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 50px 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="flex-titulo">
+            <p>style<span>code</span></p>
+            <div class="parrafos">
+                <p>tienda</p>
+                <p>online</p>
+            </div>
+        </div>
+        <nav class="navegacion-cabeza">
+            <a href="#">inicio</a>
+            <a href="#">conócenos</a>
+            <a href="#">nosotros</a>
+            <a href="#">misión</a>
+            <a href="#">visión</a>
+        </nav>
+    </header>
+
+
+    <h2 style="text-align:center">Product Card</h2>
+
+    <!-- <button type="button" id="consultar">Cargar datos API</button> -->
+    <div class="flex-contenedor" id="contenedor-cartas">
+        <!-- este divisor sive como una representación del contenedor de los productos -->
+
+    </div>
+
+    <!-- <div class="flex-contenedor">
+        <div class="card">
+            <img src="https://aws.glamour.mx/prod/designs/v1/assets/620x354/176107.jpg" alt="bolsa" style="width:100%">
+            <h1>Bolso day</h1>
+            <p class="precio">$39.99</p>
+            <p>Some text about the handbag. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="https://s1.eestatic.com/2017/05/01/corazon/estilo/moda/moda_212739652_33609119_1706x960.jpg" alt="bolsa" style="width:100%">
+            <h1>Bolso day</h1>
+            <p class="precio">$39.99</p>
+            <p>Some text about the handbag. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="https://media.wsimag.com/attachments/6c092df896ebffe34f3c0a16bd1c05973154d491/store/fill/1020/574/4f25e39afd6fd50cad69114fd6f2f8dadd5e1c4b12df1febbd2590893c2b/Modelo-vintage-de-un-bolso-duffle.jpg" alt="bolsa" style="width:100%">
+            <h1>Bolso day</h1>
+            <p class="precio">$39.99</p>
+            <p>Some text about the handbag. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="flex-contenedor">
+        <div class="card">
+            <img src="https://media.wsimag.com/attachments/6c092df896ebffe34f3c0a16bd1c05973154d491/store/fill/1020/574/4f25e39afd6fd50cad69114fd6f2f8dadd5e1c4b12df1febbd2590893c2b/Modelo-vintage-de-un-bolso-duffle.jpg" alt="bolsa" style="width:100%">
+            <h1>Bolso day</h1>
+            <p class="precio">$39.99</p>
+            <p>Some text about the handbag. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="https://s1.eestatic.com/2017/05/01/corazon/estilo/moda/moda_212739652_33609119_1706x960.jpg" alt="bolsa" style="width:100%">
+            <h1>Bolso day</h1>
+            <p class="precio">$39.99</p>
+            <p>Some text about the handbag. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+            <img src="https://aws.glamour.mx/prod/designs/v1/assets/620x354/176107.jpg" alt="bolsa" style="width:100%">
+            <h1>Bolso day</h1>
+            <p class="precio">$39.99</p>
+            <p>Some text about the handbag. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div> -->
+
+    <hr>
+
+    <footer class="flex-contenedor-footer">
+        <div>
+            <nav class="navegacion-pie">
+                <a href="#">inicio</a>
+                <a href="#">contáctanos</a>
+            </nav>
+            <p class="parrafo-footer parrafo-marca">&reg; style <span class="spam-marca">code</span> </p>
+        </div>
+        <nav class="navegacion-pie-redes">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </nav>
+        <div>
+            <p class="parrafo-footer parrafo-color-grey"><i class="fas fa-envelope email-symbol"></i> codigo.denisse463@gmail.com</p>
+            <p class="parrafo-footer parrafo-color-grey">&copy; Derechos reservados</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+</body>
